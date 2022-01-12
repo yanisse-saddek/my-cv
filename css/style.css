@@ -1,5 +1,180 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0
+}
+nav{
+    background-color: #0475ba;
+    height: 72px;
+    display: flex;
+    align-items:center
+}
+.text-white{
+    color:white;
+}
+.text-blue{
+    color:#0475ba;
+}
+.name{
+    padding-right:40px;
+    padding-left:20px;
+    font-weight:bold;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list a{
+    padding-left:10px;
+    text-decoration:none;
+    color:white
+}
+.profil{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+}
+
+.profil-right img{
+    height:150px;
+    width:150px;
+    border-radius:100px;
+}
+.app{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profil-name{
+    font-weight: bold;
+    font-size:25px;
+    text-align: center;
+    margin-top:40px;
+}
+.profil-desc{
+    color:#0475ba;
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+
+.presentation{
+    background-color: #0475ba;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.presentation p{
+    text-align: center;
+    font-weight: bold;
+}  
+.center-profil{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:50%;
+    justify-content: space-around;
+}
+
+.center1{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:50%;
+    justify-content: space-around;
+}
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align{
+    text-align:center;
+}
+.center2{   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:50%;
+}
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+.exp2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+    color:white;
+}
+
+.experience-title{
+    font-weight: bold;
+    padding-bottom:10px;
+}
+.experience-right{
+    font-weight: bold;
+}
+
+
+.formation{
+    background-color:#0475ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold{
+    font-weight:bold
+}
+.passion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    background-color: #0475ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    color:white;
+}
+.social svg{
+    height:20px;
+    width:20px;
+    color:white;
+}
+.link-svg{
+    display: flex;
+}
+.link-social{
+    margin-top:20px;
+}
+@media (max-width: 576px) { 
+    .nav-list{
+        display:none;
+    }
+    .center-profil{
+        flex-direction: column;
+        width:70%;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+    .center2{
+        width:90%;
+    }
+}
 
