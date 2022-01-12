@@ -3,7 +3,8 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0
+    margin:0;
+    position: relative;
 }
 .align{
     margin-bottom:20px;
@@ -166,11 +167,27 @@ nav{
 .link-social{
     margin-top:20px;
 }
+.up{
+    height:60px;
+    width:60px;
+    background-color: #0475ba;
+    position:fixed;
+    left:93%;
+    border-radius:100px;
+    bottom:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+}
+.up svg{
+    height:50px;
+    width:50px;
+    color:white;
+}
 
 @media (max-width: 900px) { 
-    .nav-list{
-        display:none;
-    }
+
     .center-profil{
         flex-direction: column;
         width:70%;
@@ -184,6 +201,17 @@ nav{
     .align{
         text-align:center;
     }
+    .up{
+        left:80%;
+    }
+}
 
+@media (max-width: 576px) { 
+    .nav-list{
+        display:none;
+    }
+    .up{
+        display: none;
+    }
 }
 
